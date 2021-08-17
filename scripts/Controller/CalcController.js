@@ -10,10 +10,12 @@ class CalcController {
     initialize(){
 
         let displayCalcE1 = document.querySelector("#display");
-        let dateE1 = document.querySelector("#11/05/2021");
-        let timeE1 = document.querySelector("#12:35");
+        let dateE1 = document.querySelector("#data");
+        let timeE1 = document.querySelector("#hora");
 
         displayCalcE1.innerHTML = "4567";
+        dateE1.innerHTML = "17/08/2021";
+        timeE1.innerHTML = "12:20";
 
     }
 
